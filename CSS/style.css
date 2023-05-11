@@ -27,5 +27,18 @@
     font-size: 200%;
 }
 
+h2{
+    text-align: center;
+    margin: 2%;
+    font-size: 200%;
+}
+
+p{
+
+    width: 90%;
+    margin: auto;
+    font-size:100%;
+
+}
 
 

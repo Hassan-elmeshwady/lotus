@@ -30,13 +30,13 @@
     font-size: 200%;
 }
 
-h2{
+ h2{
     text-align: center;
     margin: 2%;
     font-size: 200%;
 }
 
-p{
+.section p{
 
     width: 90%;
     margin: auto;
@@ -77,32 +77,36 @@ p{
     width: 100%;
     text-align: center;
   background-color: aliceblue;
- height: auto;
+ height: 25vh;
  
-  margin-top: 20px;
+ 
   background-color: rgb(0, 0, 0);
- border-top-left-radius: 5%;
- border-top-right-radius: 5%;
- 
 
 }
 .btn{
    color: #ffffff;
    font-size: 150%;
-   margin-top: 10px;
-   margin-left: 25px;
+  
+  
 }
 
 .btn:hover{
 
-    color: rgb(250, 234, 8);
+    color: rgb(237, 221, 4);
 
 }
 
 .data-t{
-    display: inline;
-    margin: 20px;
-   margin-left: 200px;
+    
+   text-align: start;
+   margin-left: 2%;
     color: white;
     font-size:small;
+    display: inline;
+}
+
+.footer h3 {
+
+    color: rgb(237, 221, 4);
+
 }

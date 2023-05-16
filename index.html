@@ -7,7 +7,7 @@
   <title>LOTUS</title>
   <link rel="stylesheet" href="CSS/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/all.min.css">
-  
+  <link rel="stylesheet" href="CSS/lightbox.min.css">
   <link rel="stylesheet" href="CSS/styletmp.css">
   <link rel="stylesheet" href="CSS/style.css">
 </head>
@@ -16,7 +16,7 @@
   <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <img id="logo" src="IMG/for import & export.png" alt="">
-      <a class="navbar-brand fw-bold" href="#">Lotus Company</a>
+      <a class="navbar-brand fw-bold" href="index.html">Lotus Company</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -46,7 +46,7 @@
             <i class="fa-solid fa-globe"></i>
           </button>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#"> <img id="lng" src="IMG/Arb.jpg" alt=""> عربي </a></li>
+            <li><a class="dropdown-item" href="index.html"> <img id="lng" src="IMG/Arb.jpg" alt=""> عربي </a></li>
             <li><a class="dropdown-item" href="#"><img id="lng2" src="IMG/united-kingdom.png" alt="">  English</a></li>
             
             
@@ -100,20 +100,20 @@
  
  <div class="gallery ">
 
-    <a href="img/food4.webp"  data-title="pic number: 1">
+    <a href="img/food4.webp" data-lightbox="gallery" data-title="pic number: 1">
 
       <img src="img/food4.webp" alt="happy-waiter-serving">
 
     </a>
 
 
-    <a href="img/food2w.webp"  data-title="pic number: 2">
+    <a href="img/food2w.webp" data-lightbox="gallery" data-title="pic number: 2">
 
       <img src="img/food2w.webp" alt="happy-waiter-serving">
 
     </a>
 
-    <a href="img/food3.webp"  data-title="pic number: 3">
+    <a href="img/food3.webp" data-lightbox="gallery" data-title="pic number: 3">
 
       <img src="img/food3.webp" alt="happy-waiter-serving">
 
@@ -291,8 +291,9 @@
 
 
   <script src="script/bootstrap.bundle.min.js"></script>
-
+  <script src="script/lightbox-plus-jquery.min.js"></script>
   <script src="script/all.min.js"></script>
+  <script src="script/min.js"></script>
  
 </body>
 </html>

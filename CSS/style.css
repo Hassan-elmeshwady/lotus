@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
+ .s{
+    height: 100vh;
+}
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -86,6 +88,7 @@
     background-color: aliceblue;
     height: 25vh;
     background-color: rgb(0, 0, 0);
+    
 
 }
 .btn{

@@ -216,6 +216,30 @@ grid-template-columns: repeat(4 , 1fr);
 }
 
 
+
+.card-body img{
+   width: 20%;
+}
+
+
+.
+.cover{
+    width: 100%;
+   
+}
+
+
+.cover img{
+    width: 100%;
+    
+}
+
+.box{
+   margin-top: 20px;
+}
+
+
+
 @media screen and (max-width:600px) {
 
 

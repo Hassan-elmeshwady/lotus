@@ -244,7 +244,7 @@ grid-template-columns: repeat(4 , 1fr);
    margin-left: 5%;
 }
 .textv p{
-   font-size: 15px;
+   font-size: 20px;
  }
 
 iframe{
@@ -305,12 +305,16 @@ iframe{
             }
 
 
+            .textv{
+                margin-left: 0.5%;
+             }
+
             .textv p{
                 font-size: 10px;
               }
              
              iframe{
-                 width: 50%;
+                 width: 65%;
                  height:auto;
              }
 

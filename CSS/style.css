@@ -236,6 +236,12 @@ grid-template-columns: repeat(4 , 1fr);
 
 .box{
    margin-top: 20px;
+   width: 100%;
+   display:flex;
+}
+
+.textv{
+   margin-left: 5%;
 }
 
 

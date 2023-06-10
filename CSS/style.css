@@ -243,6 +243,14 @@ grid-template-columns: repeat(4 , 1fr);
 .textv{
    margin-left: 5%;
 }
+.textv p{
+   font-size: 15px;
+ }
+
+iframe{
+    width: 50%;
+    height: 350px;
+}
 
 
 
@@ -297,7 +305,14 @@ grid-template-columns: repeat(4 , 1fr);
             }
 
 
-
+            .textv p{
+                font-size: 10px;
+              }
+             
+             iframe{
+                 width: 50%;
+                 height:auto;
+             }
 
     
 }

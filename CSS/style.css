@@ -255,7 +255,17 @@ iframe{
 }
 
 
+.card-title{
 
+    text-align: center;
+    font-weight: bold;
+}
+
+
+h6{
+
+    text-align: end;
+}
 @media screen and (max-width:600px) {
 
 
